@@ -1,17 +1,23 @@
 body {
-  background: yellow;
+  /* background: yellow; */
+  background: url('./small-background.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
-@media screen and (min-width: 900px) {
+h1 {
+  color: red;
+}
+
+@media screen and (min-width: 1200px) {
   body {
     background: url('./large-background.jpg') no-repeat center center fixed;
     background-size: cover;
   }
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   body {
-    background: url('./large-background.jpg') no-repeat center center fixed;
+    background: url('./small-background.jpg') no-repeat center center fixed;
     background-size: cover;
   }
-}
+} */
